@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forbedre SEO | En innføring og guide</title>
+    <meta name="description" content="Lær om grunnleggende søkemotoroptimalisering (SEO), hvorfor det er viktig for nettsider, og hvordan du forbedrer teknisk struktur for bedre synlighet på Google.">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<script>
+			function mobilMenu() {
+				var x = document.getElementById("ham")
+
+				if (x.style.display === "block") {
+					x.style.display = "none"
+				} else {
+					x.style.display = "block"
+				}
+			}
+		</script>
+		<div id="grid-container">
+			<header id="page-header">
+				<h1>Søkemotoroptimalisering</h1>
+			</header>
+			<nav>
+            <span class="logo">Logo</span>
+            <i class="fas fa-hamburger" onclick="mobilMenu()" aria-label="Åpne meny"></i>
+            <ul id="ham" class="top-menu">
+                <li><a href="#seo-innforing">Innføring i SEO</a></li>
+                <li><a href="#teknisk-seo">Teknisk SEO</a></li>
+                <li><a href="#innholdsarbeid">Innholdsarbeid</a></li>
+                
+                <!-- Dropdown-meny -->
+                <li class="dropdown-point">
+                    <a href="#oblig1">Oblig 1</a>
+                    <ul class="dropdown-main">
+                        <li><a href="#html-skjema">HTML-skjema</a></li>
+                        <li><a href="#media-typer">Mediatyper</a></li>
+                        <li><a href="#css-layout">CSS Layout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+			<main id="main">
+            <article id="item-1">
+                <header>
+                    <h2>Hva er Søkemotoroptimalisering?</h2>
+                </header>
+                <img src="https://picsum.photos/400/400" alt="Illustrasjon av en person som analyserer søkeresultater på dataskjerm" />
+                <p>
+                    Søkemotoroptimalisering (SEO) handler om å tilpasse nettsider slik at de oppnår bedre synlighet i søkemotorer som Google. God teknisk HTML-struktur og relevans er nøkkelen til suksess.
+                </p>
+                <a href="#seo-innforing">Les hele innføringen om søkemotoroptimalisering</a>
+            </article>
+				<article id="item-2">
+                <header>
+                    <h2>Betydningen av Semantisk HTML</h2>
+                </header>
+                <img src="https://picsum.photos/400/400" alt="Diagram som viser strukturen på semantiske HTML-elementer" />
+                <p>
+                    Semantiske elementer som header, main, nav og article gjør det enkelt for Google sine søkeroboter å forstå hva innholdet på nettsiden faktisk handler om.
+                </p>
+                <a href="#teknisk-seo">Lær mer om semantiske tagger i HTML</a>
+            </article>
+
+            <article id="item-3">
+                <header>
+                    <h2>Optimalisering av Metabeskrivelser</h2>
+                </header>
+                <img src="https://picsum.photos/400/400" alt="Skjermbilde som viser hvordan metabeskrivelser vises i Google søkeresultater" />
+                <p>
+                    En god metabeskrivelse og presise titler tiltrekker seg flere klikk fra brukere i søkeresultatene. Sørg for at hver side har en unik og informativ beskrivelse.
+                </p>
+                <a href="#innholdsarbeid">Se retningslinjer for gode metabeskrivelser</a>
+            </article>
+
+            <article id="item-4">
+                <header>
+                    <h2>Bilde-SEO og Alt-tekster</h2>
+                </header>
+                <img src="https://picsum.photos/400/400" alt="Grafikk som viser universell utforming og bildebeskrivelser" />
+                <p>
+                    Bilder må alltid ha beskrivende alt-tekster. Dette hjelper både skjermlesere for svaksynte og søkemotorer som skal indeksere bildene i bildesøk.
+                </p>
+                <a href="#bilde-seo">Les guiden for universell utforming av bilder</a>
+            </article>
+
+            <article id="item-5">
+                <header>
+                    <h2>Intern Lenkestruktur</h2>
+                </header>
+                <img src="https://picsum.photos/400/400" alt="Nettverk av sammankoblede nettsider som illustrerer lenkestruktur" />
+                <p>
+                    Unngå generiske ankertekster som "klik her". Bruk meningsfulle og beskrivende tekster som forteller brukeren og søkemotoren hvor lenken fører.
+                </p>
+                <a href="#lenkestruktur">Utforsk beste praksis for lenkestruktur</a>
+            </article>
+        </main>
+
+        <!-- Sideinnhold endret fra <div> til semantisk <aside> -->
+        <aside id="aside">
+            <h2>Relatert Innhold</h2>
+            
+            <section id="video">
+                <h3>Instruksjonsvideo</h3>
+            </section>
+
+            <section id="rel-article">
+                <h3>Nyttige Lenker</h3>
+                <ul>
+                    <li><a href="https://developers.google.com/search" target="_blank" rel="noopener">Googles SEO-retningslinjer</a></li>
+                    <li><a href="https://schema.org" target="_blank" rel="noopener">Schema.org Microdata Guide</a></li>
+                    <li><a href="https://w3.org" target="_blank" rel="noopener">W3C HTML Standarder</a></li>
+                    <li><a href="#ressurser">Se alle SEO-ressurser</a></li>
+                    <li><a href="#kontakt">Kontakt faglærer</a></li>
+                </ul>
+            </section>
+
+            <section id="google-btn">
+                <a href="https://google.com" target="_blank" rel="noopener" class="btn">Gå til Google Søk</a>
+            </section>
+        </aside>
+
+        <!-- Bunntekst -->
+        <footer>
+            <p>&copy; 2026 Webutvikling. Alle rettigheter reservert.</p>
+        </footer>
+    </div>
+</body>
